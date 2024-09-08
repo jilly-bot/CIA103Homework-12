@@ -14,7 +14,7 @@ public class Hw3_1 {
 		System.out.println("請輸入第三個整數：");
 		int c = scanner.nextInt();
 		
-		
+		scanner.close();
 		checkTriangle(a, b, c);
 	}
 
